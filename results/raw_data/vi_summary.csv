@@ -1,0 +1,4 @@
+gamma,theta,sweeps_to_converge,runtime_sec,num_states,V_start,policy_agreement_vs_gamma_0.99
+0.9,1e-06,51,13.93,20850,-0.4781,0.9329
+0.95,1e-06,51,13.927,20850,14.1845,0.9588
+0.99,1e-06,51,13.834,20850,64.7176,1.0
