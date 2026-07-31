@@ -1,0 +1,2 @@
+reward_mode,eval_episodes,success_rate,mean_return,mean_steps_all,mean_steps_success,mean_steps_failure,energy_depleted_rate,step_limit_rate
+sparse,300,0.93,88.903333,40.71,40.010753,50.0,0.07,0.0

@@ -1,0 +1,21 @@
+{
+  "map_filename": "source_map.json",
+  "episodes": 150000,
+  "alpha": 0.2,
+  "gamma": 0.99,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "decay_fraction": 0.8,
+  "reward_modes": [
+    "sparse",
+    "shaped"
+  ],
+  "schedules": [
+    "linear",
+    "exponential"
+  ],
+  "eval_episodes": 300,
+  "seed": 9,
+  "vi_reference_model": "results/models/vi_gamma_0.99.pkl",
+  "timestamp": "2026-07-31 03:41:48"
+}

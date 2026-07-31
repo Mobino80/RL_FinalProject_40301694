@@ -1,0 +1,5 @@
+run,reward_mode,schedule,train_runtime_sec,visited_states,eval_success_rate,eval_mean_return,eval_mean_steps,policy_agreement_vs_VI,agreement_states_compared
+ql_sparse_linear,sparse,linear,19.4,8865,0.54,31.97,49.0,0.5066,8865
+ql_sparse_exponential,sparse,exponential,19.87,8986,0.6467,43.14,48.3,0.5018,8986
+ql_shaped_linear,shaped,linear,22.94,7819,0.4,31.29,49.2,0.5909,7819
+ql_shaped_exponential,shaped,exponential,23.18,7734,0.5567,49.04,48.9,0.5786,7734
