@@ -1,0 +1,9 @@
+run,lambda,trace_type,trace_lifetime_steps,energy_budget,train_runtime_sec,visited_states,max_active_traces,eval_success_rate,eval_mean_return,eval_mean_steps_success,eval_penalty_per_episode,eval_wall_hits_per_episode,policy_agreement_vs_VI,agreement_states_compared
+sarsa_lam0.0_replacing,0.0,replacing,0,50,23.51,11295,1,0.8133,64.98,46.4,0.163,3.503,0.4815,11295
+sarsa_lam0.3_replacing,0.3,replacing,7.6,50,31.81,11147,8,0.8533,69.75,45.5,0.223,3.603,0.4839,11147
+sarsa_lam0.7_replacing,0.7,replacing,25.1,50,47.38,10765,26,0.85,65.01,45.7,0.447,4.123,0.4885,10765
+sarsa_lam0.9_replacing,0.9,replacing,79.8,50,55.28,10242,50,0.0,-26.57,,0.0,1.6,0.4347,10242
+sarsa_lam0.75_replacing,0.75,replacing,30.9,50,50.11,10693,31,0.8167,64.58,44.5,0.317,3.76,0.4797,10693
+sarsa_lam0.8_replacing,0.8,replacing,39.5,50,53.72,10719,40,0.41,12.98,47.6,0.133,3.97,0.4785,10719
+sarsa_lam0.85_replacing,0.85,replacing,53.4,50,56.34,10910,50,0.6433,40.47,47.5,0.19,4.137,0.472,10910
+sarsa_lam0.9_accumulating,0.9,accumulating,79.8,50,57.59,10242,50,0.0,-26.57,,0.0,1.6,0.4347,10242
