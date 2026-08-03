@@ -1,0 +1,1 @@
+episode,step,row,col,key,energy,intended_action,effective_action,next_row,next_col,next_key,next_energy,reward,event,done

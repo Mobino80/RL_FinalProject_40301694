@@ -1,0 +1,41 @@
+{
+  "source_map": "source_map.json",
+  "source_model": "results/models/ql_sparse_exponential_q.pkl",
+  "reward_mode": "sparse",
+  "episodes_target": 60000,
+  "alpha": 0.2,
+  "gamma": 0.99,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "decay_fraction": 0.8,
+  "betas": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "selective_radius": 1,
+  "eval_episodes": 300,
+  "speed_threshold": 0.3,
+  "seed": 9,
+  "target_seed_similar": 91,
+  "target_seed_different": 92,
+  "timestamp": "2026-08-03 22:59:40",
+  "target_map_stats": {
+    "similar": {
+      "obstacle_change_fraction": 0.1795,
+      "key_moved": false,
+      "cells_changed": 14,
+      "new_penalty_cells": 0,
+      "shortest_start_to_key": 10,
+      "shortest_key_to_goal": 22
+    },
+    "different": {
+      "obstacle_change_fraction": 0.4103,
+      "key_moved": true,
+      "cells_changed": 36,
+      "new_penalty_cells": 4,
+      "shortest_start_to_key": 11,
+      "shortest_key_to_goal": 17
+    }
+  }
+}

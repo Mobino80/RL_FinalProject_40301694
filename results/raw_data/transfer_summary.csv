@@ -1,0 +1,13 @@
+target,scenario,beta,transferred_states,source_states,transfer_ratio,jumpstart_success,jumpstart_return,success_auc,episodes_to_threshold,final_success,final_return,train_runtime_sec
+similar,scratch,,0,8986,0.0,0.0,-129.92,0.0038,,0.06,-27.5,9.03
+similar,full,,8986,8986,1.0,0.0,-49.19,0.1227,46624,0.46,23.09,9.12
+similar,scaled_b0.25,0.25,8986,8986,1.0,0.0,-49.19,0.0756,,0.32,7.65,9.23
+similar,scaled_b0.5,0.5,8986,8986,1.0,0.0,-49.19,0.1101,46475,0.4267,18.49,8.98
+similar,scaled_b0.75,0.75,8986,8986,1.0,0.0,-49.35,0.1138,48775,0.3367,6.75,9.17
+similar,selective,,5533,8986,0.6157,0.0,-79.46,0.0855,57757,0.4133,17.86,9.29
+different,scratch,,0,8986,0.0,0.0,-154.59,0.2019,40933,0.7333,60.41,9.19
+different,full,,8986,8986,1.0,0.0,-229.85,0.2547,33699,0.6633,49.93,8.97
+different,scaled_b0.25,0.25,8986,8986,1.0,0.0,-229.85,0.2696,32149,0.7067,54.79,8.97
+different,scaled_b0.5,0.5,8986,8986,1.0,0.0,-229.85,0.2559,33118,0.67,52.42,8.9
+different,scaled_b0.75,0.75,8986,8986,1.0,0.0,-229.85,0.2521,33685,0.6367,45.56,9.02
+different,selective,,2687,8986,0.299,0.0,-165.19,0.2125,39196,0.74,62.26,9.27
