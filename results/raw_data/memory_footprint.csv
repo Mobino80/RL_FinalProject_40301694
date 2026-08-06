@@ -1,0 +1,7 @@
+algorithm,stores,entries_mean,kilobytes_mean
+q_learning,"Q(s,a) for visited states",8880,442.3
+sarsa_lam0.0,"Q(s,a) for visited states",11346,565.2
+sarsa_lam0.3,"Q(s,a) for visited states",11125,554.2
+sarsa_lam0.7,"Q(s,a) for visited states",10782,537.1
+sarsa_lam0.9,"Q(s,a) for visited states",10331,514.6
+value_iteration,V(s) + policy for ALL states,20850,549.2

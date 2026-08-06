@@ -1,0 +1,57 @@
+{
+  "map_filename": "source_map.json",
+  "reward_mode": "sparse",
+  "episodes": 150000,
+  "alpha": 0.2,
+  "gamma": 0.99,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "decay_fraction": 0.8,
+  "seeds": [
+    9,
+    17,
+    23,
+    42,
+    101
+  ],
+  "eval_episodes": 300,
+  "eval_seed": 777,
+  "speed_threshold": 0.3,
+  "configs": [
+    {
+      "name": "q_learning",
+      "algo": "ql"
+    },
+    {
+      "name": "sarsa_lam0.0",
+      "algo": "sarsa",
+      "lam": 0.0
+    },
+    {
+      "name": "sarsa_lam0.3",
+      "algo": "sarsa",
+      "lam": 0.3
+    },
+    {
+      "name": "sarsa_lam0.7",
+      "algo": "sarsa",
+      "lam": 0.7
+    },
+    {
+      "name": "sarsa_lam0.9",
+      "algo": "sarsa",
+      "lam": 0.9
+    }
+  ],
+  "timestamp": "2026-08-06 03:13:18",
+  "value_iteration_reference": {
+    "config": "value_iteration",
+    "training_variance": 0.0,
+    "eval_success_mean": 0.954,
+    "eval_success_std": 0.008,
+    "table_kb": 549.2,
+    "states_stored": 20850,
+    "sweeps": 51,
+    "runtime_sec": 13.834
+  }
+}
