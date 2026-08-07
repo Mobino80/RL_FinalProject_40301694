@@ -54,9 +54,10 @@ re-running reproduces the committed numbers exactly.
 | 2 | `python experiments/run_value_iteration.py` | VI models, γ study, heatmaps | 40 s |
 | 3 | `python experiments/run_q_learning.py` | 4 Q-Learning runs, logs, curves | 3 min |
 | 4 | `python experiments/run_sarsa_lambda.py` | λ sweep, trace logs, curves | 10 min |
-| 5 | `python experiments/run_transfer.py` | target maps, 12 transfer runs | 3 min |
-| 6 | `python experiments/analysis.py` | all figures used in the report | 30 s |
-| 7 | `python main.py` | graphical interface | — |
+| 5 | `python experiments/run_stability.py` | multi-seed stability analysis for Q-Learning and SARSA | 24 min |
+| 6 | `python experiments/run_transfer.py` | target maps, 12 transfer runs | 3 min |
+| 7 | `python experiments/analysis.py` | all figures used in the report | 30 s |
+| 9 | `python main.py` | graphical interface | — |
 
 Each script writes its configuration (with a timestamp) to
 `experiments/configs/*.json`, raw measurements to `results/raw_data/`,
